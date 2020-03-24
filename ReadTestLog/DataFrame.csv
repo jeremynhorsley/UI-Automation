@@ -1,0 +1,11 @@
+,app_version,delta_fix,delta_pct,device,eos_version,event_1,event_2,event_3,event_pass_fail,ind,meaning,serial_num,static_1,static_2,test_type
+0,006.003.035.003,-27.0,-inf,SG68023PM,060.002.002.009,27.0,0.0,-139.0,pass,2,(NeutralCurrentSwitch1),6802-0020-000008,0.0,27.0,fixed
+1,006.003.035.003,3686.0,100.0,SG68023PM,060.002.002.009,-195.0,-212.0,,pass,0,(Voltagereferencestandard90),6802-0020-000008,3686.0,0.0,fixed
+2,006.003.035.003,-180.0,-inf,SG68023PM,060.002.002.009,,,,fail,1,(Voltagereferencestandard0),6802-0020-000008,0.0,180.0,fixed
+3,006.003.035.003,-598.0,-351.764705882,SG68023PM,060.002.002.009,,,,fail,3,(CurrentPoleASwitch1),6802-0020-000008,170.0,768.0,fixed
+4,006.003.035.003,-1008.0,-592.941176471,SG68023PM,060.002.002.009,147.0,170.0,,pass,4,(CurrentPoleBSwitch1),6802-0020-000008,170.0,1178.0,fixed
+5,006.003.035.003,0.0,0.0,SG68023PM,060.002.002.009,,,,fail,5,(CurrentPoleCSwitch1),6802-0020-000008,170.0,170.0,fixed
+6,006.003.035.003,-12.0,-80.0,SG68023PM,060.002.002.009,22.0,,,fail,6,(NeutralCurrentSwitch2),6802-0020-000008,15.0,27.0,fixed
+7,006.003.035.003,0.0,0.0,SG68023PM,060.002.002.009,,,,fail,7,(CurrentPoleASwitch2),6802-0020-000008,171.0,171.0,fixed
+8,006.003.035.003,23.0,13.5294117647,SG68023PM,060.002.002.009,147.0,170.0,,pass,8,(CurrentPoleBSwitch2),6802-0020-000008,170.0,147.0,fixed
+9,006.003.035.003,0.0,0.0,SG68023PM,060.002.002.009,,,,fail,9,(CurrentPoleCSwitch2),6802-0020-000008,170.0,170.0,fixed

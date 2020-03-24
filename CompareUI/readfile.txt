@@ -1,0 +1,30 @@
+TestID: SG68023PM_AI_2
+TestScript: testAnalogInputs
+Description: AI2 Neutal current Switch 1 fixed deadband
+Type:Analog Input
+Profile: 68023PM
+filepath: C:\LogFiles\68023PM\Abys_release\AnalogInputs\fixed_deadbands
+
+loops: 1		#repeat test
+#
+#settings to test control block select point timeout
+#
+CROB_function_code: 	DIRECT_OP		#dnp function code SELECT DIRECT_OP
+read_group: 			30		#AnalogInput(30)
+read_index:			2		#indeces
+qualifier:			1
+variation:			2
+scaling:			1		#scaling for each index
+variables: 	appRetries,retryInterval   	#no spaces aftercommas
+timeOffset:			-3		#decrease value of output block point select timeout
+statusPoint:			0		#SUCCESS (0) TIMEOUT (1)
+analogInputIndex:		2
+deadBandTest:		fixed_deadband		#percent_deadband or fixed_deadband
+deadBandValue:			1.25
+deadBandFixed:			200
+deadBandPercent:		15
+DAQSetting1: 	4.1,4.1,4.1,4.1,4.1,4.1,5,5,5,5,5,5
+DAQSetting2: 	4.1,4.1,4.1,4.1,4.1,4.1,5,4.3,5,5,4.3,5
+DAQPhaseOffets:  0,-120,120,0,-120,120,0,-120,120,0,-115,120		#-5.5 phase angle
+DAQPhaseOffets1: 0,-120,120,0,-120,120,0,-115,120,0,-115,120			#-10.375 phase angle
+deadBandTol:	20

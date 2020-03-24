@@ -1,0 +1,168 @@
+TestID: SG68023PM_AI_2
+Description: AI2 Neutal current Switch 1 fixed deadband
+Device Under Test (DUT) Application version: 006.003.035.003
+Device Under Test (DUT) EOS) version: 060.002.002.009
+Device Under Test (DUT) serial number: 6802-0020-000008
+Start Time: Tue Jun  7 09:46:05 2016
+End Time: Tue Jun  7 09:47:18 2016
+Test Time (h:mm:ss): 01:13.205 (min:secs.ms)
+Loop 1 of 1 completed
+Number of channel Timeout: 0 
+Results:
+
+
+Binary Inputs:
+None
+
+Analog Inputs:
++---------------------------+----------------+-------+--------------+-------------+-------------+----------+----------------+-----+---------------------+-------------+
+| AnlgInput Index           | Reported Value | Scale | Scaled Value | ILink Value | Fixed Delta | pctDelta |    DeadBand    | Tol |     Test Result     |   Source    |
++---------------------------+----------------+-------+--------------+-------------+-------------+----------+----------------+-----+---------------------+-------------+
+| 2 (NeutralCurrentSwitch1) |       0        |   1   |     0.0      |      0      |      0      |    0     | fixed_deadband | 20  |    initial - N/A    | Master Rqst |
+| 2 (NeutralCurrentSwitch1) |       27       |   1   |     27.0     |     N/A     |     27      |   100    | fixed_deadband | 20  |   Test1 - passed    | Unsolicited |
+| 2 (NeutralCurrentSwitch1) |       27       |   1   |     27.0     |     N/A     |      0      |    0     | fixed_deadband | 20  | integrityPoll - N/A | Master Rqst |
+| 2 (NeutralCurrentSwitch1) |       0        |   1   |     0.0      |     N/A     |     27      |   100    | fixed_deadband | 20  |   Test2 - passed    | Unsolicited |
++---------------------------+----------------+-------+--------------+-------------+-------------+----------+----------------+-----+---------------------+-------------+
+
+Analog Outputs:
+None
+
+Failed Tests:
+None
+
+Unexpected Points Received:
++-------+-----------+------+----------------------------------------------+-------+-----------------+
+| Group | Variation | Qual | Pt. Index                                    | Value | Event Timestamp |
++-------+-----------+------+----------------------------------------------+-------+-----------------+
+| 30    |     4     | 0x04 | 0 (Voltagereferencestandard90) \\Master Rqst | 3686  |                 |
+| 30    |     4     | 0x04 | 1 (Voltagereferencestandard0) \\Master Rqst  |   0   |                 |
+| 30    |     4     | 0x04 | 3 (CurrentPoleASwitch1) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 4 (CurrentPoleBSwitch1) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 5 (CurrentPoleCSwitch1) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 6 (NeutralCurrentSwitch2) \\Master Rqst      |  15   |                 |
+| 30    |     4     | 0x04 | 7 (CurrentPoleASwitch2) \\Master Rqst        |  171  |                 |
+| 30    |     4     | 0x04 | 8 (CurrentPoleBSwitch2) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 9 (CurrentPoleCSwitch2) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 10 (NeutralCurrentSwitch3) \\Master Rqst     |   0   |                 |
+| 30    |     4     | 0x04 | 11 (CurrentPoleASwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 12 (CurrentPoleBSwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 13 (CurrentPoleCSwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 14 (VoltagePoleASwitch1) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 15 (VoltagePoleBSwitch1) \\Master Rqst       | 1201  |                 |
+| 30    |     4     | 0x04 | 16 (VoltagePoleCSwitch1) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 17 (VoltagePoleASwitch2) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 18 (VoltagePoleBSwitch2) \\Master Rqst       | 1201  |                 |
+| 30    |     4     | 0x04 | 19 (VoltagePoleCSwitch2) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 20 (PhaseAnglePoleASwitch1) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 21 (PhaseAnglePoleBSwitch1) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 22 (PhaseAnglePoleCSwitch1) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 23 (PhaseAnglePoleASwitch2) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 24 (PhaseAnglePoleBSwitch2) \\Master Rqst    |  -83  |                 |
+| 30    |     4     | 0x04 | 25 (PhaseAnglePoleCSwitch2) \\Master Rqst    |  -43  |                 |
+| 30    |     4     | 0x04 | 26 (KVARsPoleASwitch1) \\Master Rqst         | -112  |                 |
+| 30    |     4     | 0x04 | 27 (KVARsPoleBSwitch1) \\Master Rqst         | -113  |                 |
+| 30    |     4     | 0x04 | 28 (KVARsPoleCSwitch1) \\Master Rqst         | -112  |                 |
+| 30    |     4     | 0x04 | 29 (KVARsPoleASwitch2) \\Master Rqst         | -113  |                 |
+| 30    |     4     | 0x04 | 30 (KVARsPoleBSwitch2) \\Master Rqst         | -212  |                 |
+| 30    |     4     | 0x04 | 31 (KVARsPoleCSwitch2) \\Master Rqst         | -110  |                 |
+| 30    |     4     | 0x04 | 32 (CabinetTemperature) \\Master Rqst        |  88   |                 |
+| 30    |     4     | 0x04 | 33 (BatteryVoltage) \\Master Rqst            |  768  |                 |
+| 30    |     4     | 0x04 | 34 (SW1kWPoleA) \\Master Rqst                | 1171  |                 |
+| 30    |     4     | 0x04 | 35 (SW1kWPoleB) \\Master Rqst                | 1172  |                 |
+| 30    |     4     | 0x04 | 36 (SW1kWPoleC) \\Master Rqst                | 1171  |                 |
+| 30    |     4     | 0x04 | 37 (SW1kVAPoleA) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 38 (SW1kVAPoleB) \\Master Rqst               | 1178  |                 |
+| 30    |     4     | 0x04 | 39 (SW1kVAPoleC) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 40 (SW2kWPoleA) \\Master Rqst                | 1178  |                 |
+| 30    |     4     | 0x04 | 41 (SW2kWPoleB) \\Master Rqst                | 1159  |                 |
+| 30    |     4     | 0x04 | 42 (SW2kWPoleC) \\Master Rqst                | 1172  |                 |
+| 30    |     4     | 0x04 | 43 (SW2kVAPoleA) \\Master Rqst               | 1184  |                 |
+| 30    |     4     | 0x04 | 44 (SW2kVAPoleB) \\Master Rqst               | 1178  |                 |
+| 30    |     4     | 0x04 | 45 (SW2kVAPoleC) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 46 (kVARTotalSwitch1) \\Master Rqst          | -337  |                 |
+| 30    |     4     | 0x04 | 47 (kVARTotalSwitch2) \\Master Rqst          | -439  |                 |
+| 30    |     4     | 0x04 | 48 (KWTotalSwitch1) \\Master Rqst            | 3514  |                 |
+| 30    |     4     | 0x04 | 49 (KWTotalSwitch2) \\Master Rqst            | 3506  |                 |
+| 30    |     4     | 0x04 | 50 (KVATotalSwitch1) \\Master Rqst           | 3532  |                 |
+| 30    |     4     | 0x04 | 51 (KVATotalSwitch2) \\Master Rqst           | 3539  |                 |
+| 30    |     4     | 0x04 | 52 (ThreePhaseCurrentAvgSW1) \\Master Rqst   |  170  |                 |
+| 30    |     4     | 0x04 | 53 (ThreePhaseCurrentAvgSW2) \\Master Rqst   |  170  |                 |
+| 32    |     2     | 0x02 | 6 (NeutralCurrentSwitch2) \\Unsolicited      |  22   |                 |
+| 32    |     2     | 0x02 | 27 (KVARsPoleBSwitch1) \\Unsolicited         | -139  |                 |
+| 32    |     2     | 0x02 | 30 (KVARsPoleBSwitch2) \\Unsolicited         | -195  |                 |
+| 32    |     2     | 0x02 | 4 (CurrentPoleBSwitch1) \\Unsolicited        |  147  |                 |
+| 32    |     2     | 0x02 | 8 (CurrentPoleBSwitch2) \\Unsolicited        |  147  |                 |
+| 32    |     2     | 0x02 | 21 (PhaseAnglePoleBSwitch1) \\Unsolicited    |  -83  |                 |
+| 32    |     2     | 0x02 | 27 (KVARsPoleBSwitch1) \\Unsolicited         | -183  |                 |
+| 30    |     4     | 0x04 | 0 (Voltagereferencestandard90) \\Master Rqst | 3686  |                 |
+| 30    |     4     | 0x04 | 1 (Voltagereferencestandard0) \\Master Rqst  |   0   |                 |
+| 30    |     4     | 0x04 | 3 (CurrentPoleASwitch1) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 4 (CurrentPoleBSwitch1) \\Master Rqst        |  146  |                 |
+| 30    |     4     | 0x04 | 5 (CurrentPoleCSwitch1) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 6 (NeutralCurrentSwitch2) \\Master Rqst      |  27   |                 |
+| 30    |     4     | 0x04 | 7 (CurrentPoleASwitch2) \\Master Rqst        |  171  |                 |
+| 30    |     4     | 0x04 | 8 (CurrentPoleBSwitch2) \\Master Rqst        |  147  |                 |
+| 30    |     4     | 0x04 | 9 (CurrentPoleCSwitch2) \\Master Rqst        |  170  |                 |
+| 30    |     4     | 0x04 | 10 (NeutralCurrentSwitch3) \\Master Rqst     |   0   |                 |
+| 30    |     4     | 0x04 | 11 (CurrentPoleASwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 12 (CurrentPoleBSwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 13 (CurrentPoleCSwitch3) \\Master Rqst       |  180  |                 |
+| 30    |     4     | 0x04 | 14 (VoltagePoleASwitch1) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 15 (VoltagePoleBSwitch1) \\Master Rqst       | 1201  |                 |
+| 30    |     4     | 0x04 | 16 (VoltagePoleCSwitch1) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 17 (VoltagePoleASwitch2) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 18 (VoltagePoleBSwitch2) \\Master Rqst       | 1201  |                 |
+| 30    |     4     | 0x04 | 19 (VoltagePoleCSwitch2) \\Master Rqst       | 1200  |                 |
+| 30    |     4     | 0x04 | 20 (PhaseAnglePoleASwitch1) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 21 (PhaseAnglePoleBSwitch1) \\Master Rqst    |  -83  |                 |
+| 30    |     4     | 0x04 | 22 (PhaseAnglePoleCSwitch1) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 23 (PhaseAnglePoleASwitch2) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 24 (PhaseAnglePoleBSwitch2) \\Master Rqst    |  -83  |                 |
+| 30    |     4     | 0x04 | 25 (PhaseAnglePoleCSwitch2) \\Master Rqst    |  -44  |                 |
+| 30    |     4     | 0x04 | 26 (KVARsPoleASwitch1) \\Master Rqst         | -112  |                 |
+| 30    |     4     | 0x04 | 27 (KVARsPoleBSwitch1) \\Master Rqst         | -181  |                 |
+| 30    |     4     | 0x04 | 28 (KVARsPoleCSwitch1) \\Master Rqst         | -112  |                 |
+| 30    |     4     | 0x04 | 29 (KVARsPoleASwitch2) \\Master Rqst         | -113  |                 |
+| 30    |     4     | 0x04 | 30 (KVARsPoleBSwitch2) \\Master Rqst         | -183  |                 |
+| 30    |     4     | 0x04 | 31 (KVARsPoleCSwitch2) \\Master Rqst         | -112  |                 |
+| 30    |     4     | 0x04 | 32 (CabinetTemperature) \\Master Rqst        |  88   |                 |
+| 30    |     4     | 0x04 | 33 (BatteryVoltage) \\Master Rqst            |  768  |                 |
+| 30    |     4     | 0x04 | 34 (SW1kWPoleA) \\Master Rqst                | 1171  |                 |
+| 30    |     4     | 0x04 | 35 (SW1kWPoleB) \\Master Rqst                |  994  |                 |
+| 30    |     4     | 0x04 | 36 (SW1kWPoleC) \\Master Rqst                | 1171  |                 |
+| 30    |     4     | 0x04 | 37 (SW1kVAPoleA) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 38 (SW1kVAPoleB) \\Master Rqst               | 1011  |                 |
+| 30    |     4     | 0x04 | 39 (SW1kVAPoleC) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 40 (SW2kWPoleA) \\Master Rqst                | 1178  |                 |
+| 30    |     4     | 0x04 | 41 (SW2kWPoleB) \\Master Rqst                | 1001  |                 |
+| 30    |     4     | 0x04 | 42 (SW2kWPoleC) \\Master Rqst                | 1171  |                 |
+| 30    |     4     | 0x04 | 43 (SW2kVAPoleA) \\Master Rqst               | 1184  |                 |
+| 30    |     4     | 0x04 | 44 (SW2kVAPoleB) \\Master Rqst               | 1018  |                 |
+| 30    |     4     | 0x04 | 45 (SW2kVAPoleC) \\Master Rqst               | 1177  |                 |
+| 30    |     4     | 0x04 | 46 (kVARTotalSwitch1) \\Master Rqst          | -407  |                 |
+| 30    |     4     | 0x04 | 47 (kVARTotalSwitch2) \\Master Rqst          | -406  |                 |
+| 30    |     4     | 0x04 | 48 (KWTotalSwitch1) \\Master Rqst            | 3343  |                 |
+| 30    |     4     | 0x04 | 49 (KWTotalSwitch2) \\Master Rqst            | 3343  |                 |
+| 30    |     4     | 0x04 | 50 (KVATotalSwitch1) \\Master Rqst           | 3372  |                 |
+| 30    |     4     | 0x04 | 51 (KVATotalSwitch2) \\Master Rqst           | 3372  |                 |
+| 30    |     4     | 0x04 | 52 (ThreePhaseCurrentAvgSW1) \\Master Rqst   |  162  |                 |
+| 30    |     4     | 0x04 | 53 (ThreePhaseCurrentAvgSW2) \\Master Rqst   |  162  |                 |
+| 32    |     2     | 0x02 | 4 (CurrentPoleBSwitch1) \\Unsolicited        |  170  |                 |
+| 32    |     2     | 0x02 | 8 (CurrentPoleBSwitch2) \\Unsolicited        |  170  |                 |
+| 32    |     2     | 0x02 | 21 (PhaseAnglePoleBSwitch1) \\Unsolicited    |  -44  |                 |
+| 32    |     2     | 0x02 | 27 (KVARsPoleBSwitch1) \\Unsolicited         | -113  |                 |
+| 32    |     2     | 0x02 | 30 (KVARsPoleBSwitch2) \\Unsolicited         | -212  |                 |
++-------+-----------+------+----------------------------------------------+-------+-----------------+
+
+Test Statistics:
++-------------+---------------+--------------+------------------+-------+
+| No.of loops | No. of passes | No. failures | Channel Timeouts | Other |
++-------------+---------------+--------------+------------------+-------+
+| 1           |       2       |      0       |        0         |   0   |
++-------------+---------------+--------------+------------------+-------+
+
+Overall Test Result:PASS
+
+***** End of Test *****
+
+

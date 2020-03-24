@@ -1,0 +1,4 @@
+ConnectType,Connect,Port,LocalAddr,PeerAddr,SetpointPath
+"Serial","COM1", "null", "65432", "65532", "C:\Users\patrick.talley\Documents\Setpoints\SG68023pm all setpoint fixed deadbands.xspt"
+"Serial","COM1", "null", "65432", "65532", "C:\Users\patrick.talley\Documents\Setpoints\SG68023PM_team_2_setpoint.xspt"
+"Serial","COM1", "null", "65432", "65532", "C:\Users\patrick.talley\Documents\SetPoints\SG68023PM_team_1_setpoint.xspt"

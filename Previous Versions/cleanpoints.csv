@@ -1,0 +1,624 @@
+PointIndex    2
+
+----          -----                
+PointCode     NeutralCurrentSwitch1
+EventClass    Class1               
+PctDeadBand   255                  
+FixedDeadBand 20                   
+Scaling       1                    
+
+
+
+
+PointIndex    3
+
+----          -----              
+PointCode     CurrentPoleASwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    4
+
+----          -----              
+PointCode     CurrentPoleBSwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    5
+
+----          -----              
+PointCode     CurrentPoleCSwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    6
+
+----          -----                
+PointCode     NeutralCurrentSwitch2
+EventClass    Class1               
+PctDeadBand   255                  
+FixedDeadBand 20                   
+Scaling       1                    
+
+
+
+
+PointIndex    7
+
+----          -----              
+PointCode     CurrentPoleASwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    8
+
+----          -----              
+PointCode     CurrentPoleBSwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    9
+
+----          -----              
+PointCode     CurrentPoleCSwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    10
+
+----          -----                
+PointCode     NeutralCurrentSwitch3
+EventClass    Class1               
+PctDeadBand   255                  
+FixedDeadBand 20                   
+Scaling       1                    
+
+
+
+
+PointIndex    11
+
+----          -----              
+PointCode     CurrentPoleASwitch3
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    12
+
+----          -----              
+PointCode     CurrentPoleBSwitch3
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    13
+
+----          -----              
+PointCode     CurrentPoleCSwitch3
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 15                 
+Scaling       1                  
+
+
+
+
+PointIndex    14
+
+----          -----              
+PointCode     VoltagePoleASwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    15
+
+----          -----              
+PointCode     VoltagePoleBSwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    16
+
+----          -----              
+PointCode     VoltagePoleCSwitch1
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    17
+
+----          -----              
+PointCode     VoltagePoleASwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    18
+
+----          -----              
+PointCode     VoltagePoleBSwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    19
+
+----          -----              
+PointCode     VoltagePoleCSwitch2
+EventClass    Class1             
+PctDeadBand   255                
+FixedDeadBand 10                 
+Scaling       1                  
+
+
+
+
+PointIndex    20
+
+----          -----                 
+PointCode     PhaseAnglePoleASwitch1
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    21
+
+----          -----                 
+PointCode     PhaseAnglePoleBSwitch1
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    22
+
+----          -----                 
+PointCode     PhaseAnglePoleCSwitch1
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    23
+
+----          -----                 
+PointCode     PhaseAnglePoleASwitch2
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    24
+
+----          -----                 
+PointCode     PhaseAnglePoleBSwitch2
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    25
+
+----          -----                 
+PointCode     PhaseAnglePoleCSwitch2
+EventClass    Class1                
+PctDeadBand   255                   
+FixedDeadBand 4                     
+Scaling       1                     
+
+
+
+
+PointIndex    26
+
+----          -----            
+PointCode     KVARsPoleASwitch1
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    27
+
+----          -----            
+PointCode     KVARsPoleBSwitch1
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    28
+
+----          -----            
+PointCode     KVARsPoleCSwitch1
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    29
+
+----          -----            
+PointCode     KVARsPoleASwitch2
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    30
+
+----          -----            
+PointCode     KVARsPoleBSwitch2
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    31
+
+----          -----            
+PointCode     KVARsPoleCSwitch2
+EventClass    Class1           
+PctDeadBand   255              
+FixedDeadBand 15               
+Scaling       1                
+
+
+
+
+PointIndex    32
+
+----          -----             
+PointCode     CabinetTemperature
+EventClass    Class1            
+PctDeadBand   255               
+FixedDeadBand 65535             
+Scaling       1                 
+
+
+
+
+PointIndex    33
+
+----          -----         
+PointCode     BatteryVoltage
+EventClass    Class1        
+PctDeadBand   255           
+FixedDeadBand 65535         
+Scaling       1             
+
+
+
+
+PointIndex    34
+
+----          -----     
+PointCode     SW1kWPoleA
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    35
+
+----          -----     
+PointCode     SW1kWPoleB
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    36
+
+----          -----     
+PointCode     SW1kWPoleC
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    37
+
+----          -----      
+PointCode     SW1kVAPoleA
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    38
+
+----          -----      
+PointCode     SW1kVAPoleB
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    39
+
+----          -----      
+PointCode     SW1kVAPoleC
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    40
+
+----          -----     
+PointCode     SW2kWPoleA
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    41
+
+----          -----     
+PointCode     SW2kWPoleB
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    42
+
+----          -----     
+PointCode     SW2kWPoleC
+EventClass    Class1    
+PctDeadBand   255       
+FixedDeadBand 200       
+Scaling       1         
+
+
+
+
+PointIndex    43
+
+----          -----      
+PointCode     SW2kVAPoleA
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    44
+
+----          -----      
+PointCode     SW2kVAPoleB
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    45
+
+----          -----      
+PointCode     SW2kVAPoleC
+EventClass    Class1     
+PctDeadBand   255        
+FixedDeadBand 200        
+Scaling       1          
+
+
+
+
+PointIndex    46
+
+----          -----           
+PointCode     kVARTotalSwitch1
+EventClass    Class1          
+PctDeadBand   255             
+FixedDeadBand 175             
+Scaling       1               
+
+
+
+
+PointIndex    47
+
+----          -----           
+PointCode     kVARTotalSwitch2
+EventClass    Class1          
+PctDeadBand   255             
+FixedDeadBand 175             
+Scaling       1               
+
+
+
+
+PointIndex    48
+
+----          -----         
+PointCode     KWTotalSwitch1
+EventClass    Class1        
+PctDeadBand   255           
+FixedDeadBand 650           
+Scaling       1             
+
+
+
+
+PointIndex    49
+
+----          -----         
+PointCode     KWTotalSwitch2
+EventClass    Class1        
+PctDeadBand   255           
+FixedDeadBand 650           
+Scaling       1             
+
+
+
+
+PointIndex    50
+
+----          -----          
+PointCode     KVATotalSwitch1
+EventClass    Class1         
+PctDeadBand   255            
+FixedDeadBand 650            
+Scaling       1              
+
+
+
+
+PointIndex    51
+
+----          -----          
+PointCode     KVATotalSwitch2
+EventClass    Class1         
+PctDeadBand   255            
+FixedDeadBand 650            
+Scaling       1              
+
+
+
+
+PointIndex    52
+
+----          -----                  
+PointCode     ThreePhaseCurrentAvgSW1
+EventClass    Class1                 
+PctDeadBand   255                    
+FixedDeadBand 30                     
+Scaling       1                      
+
+
+
+
+PointIndex    53
+
+----          -----                  
+PointCode     ThreePhaseCurrentAvgSW2
+EventClass    Class1                 
+PctDeadBand   255                    
+FixedDeadBand 30                     
+Scaling       1                      
+
+
+
+

@@ -1,0 +1,9 @@
+Source IP Address: 192.168.0.1
+Source Port: 20000
+Source DNP Address: 2
+Destination IP Address: 192.168.0.2
+Destination Port: 20000
+Destination DNP Address: 1
+Setpoint Path: C:\Users\patrick.talley\Documents\SetPoints\SG68023pm all setpoint fixed deadbands.xspt
+
+

@@ -1,0 +1,51 @@
+
+Commands:
+
+ bi[ [N1[,N2][,N3-N4][,...]]]   Scan of all(*) or certain binary inputs
+ bo[ [N1[,N2][,N3-N4][,...]]]   Scan of all(*) or certain binary outputs
+ dbi[ [N1[,N2][,N3-N4][,...]]]  Scan of all(*) or certain double binary inputs
+ ai[ [N1[,N2][,N3-N4][,...]]]   Scan of all(*) or certain analog inputs (any)
+ ai16[ [N1[,N2][,N3-N4][,...]]] Scan of all(*) or certain analog inputs (16-bit)
+ ai32[ [N1[,N2][,N3-N4][,...]]] Scan of all(*) or certain analog inputs (32-bit)
+ ao[ [N1[,N2][,N3-N4][,...]]]   Scan of all(*) or certain analog outputs (any)
+ ao16[ [N1[,N2][,N3-N4][,...]]] Scan of all(*) or certain analog outputs (16-bit)
+ ao32[ [N1[,N2][,N3-N4][,...]]] Scan of all(*) or certain analog outputs (32-bit)
+ ci[ [N1[,N2][,N3-N4][,...]]]   Scan of all(*) or certain counters
+ fci[ [N1[,N2][,N3-N4][,...]]]  Scan of all(*) or certain frozen counters
+ so[[on|off] [l|p|b]] index     Select and Operate to a binary point with ON(*) or OFF state
+ se[[on|off] [l|p|b]] index     Select to a binary point with ON(*) or OFF state
+ op[[on|off] [l|p|b]] index     Operate to a binary point with ON(*) or OFF state
+ do[[on|off] [l|p|b]] index     Direct Operate to a binary point with ON(*) or OFF state
+ donr[[on|off] [l|p|b]] index   Direct Operate No Response to a binary point with ON(*) or OFF state
+ scan[ obj[,var[,qHex[,cnt]]]]  Scan with the designated request header(s)
+ cls[ [0][[,]1][[,]2][[,]3]]    Scan for specific class(es)
+ poll                   Integrity poll (Class 3,2,1,0)
+ evnt                   Scan for all event classes (Class 3,2,1)
+ bic[ cnt]              Scan of all(*) or number of binary input changes
+ dbic[ cnt]             Scan of all(*) or number of double binary input changes
+ aic[ cnt]              Scan of all(*) or number of analog input changes
+ cic[ cnt]              Scan of all(*) or number of counter changes
+ aso index value        Select and Operate to an analog output point index with value (16-bit)
+ aso32 index value      Select and Operate to an analog output point index with value (32-bit)
+ ase index value        Select to an analog output point index with value (16-bit)
+ ase32 index value      Select to an analog output point index with value (32-bit)
+ aop index value        Operate to an analog output point index with value (16-bit)
+ aop32 index value      Operate to an analog output point index with value (32-bit)
+ ado index value        Direct Operate to an analog output point index with value (16-bit)
+ ado32 index value      Direct Operate to an analog output point index with value (32-bit)
+ adonr index value      Direct Operate No Response to an analog output point index with value (16-bit)
+ adonr32 index value    Direct Operate No Response to an analog output point index with value (32-bit)
+ du                     Disable unsolicited responses for all event classes
+ eu[ [1][[,]2][[,]3]]   Enable unsolicited responses for all(*) or specific event classes
+ dconf                  Disable application layer confirmations
+ econf                  Enable application layer confirmations
+ rcold                  Cold Restart
+ rwarm                  Warm Restart
+ clrrb                  Clear the restart bit IIN1.7[DEVICE_RESTART]
+ 0                      Drop an active connection and disable outbound connections
+ 1                      Enable outbound connections
+ 00                     Refuse inbound connections (stop listening)
+ 11                     Enable inbound connections (start listening)
+ wait msecs             Wait for the specified amount of time
+ start program[ args]   Launch another program in background
+ x[ msecs]              Exit with waiting for the specified amount of time before connection shutdown

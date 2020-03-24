@@ -1,0 +1,70 @@
+DNP3Master 1.0.0.0
+S&C Electric Company
+
+  --commPort                 Port name, i.e. "COM1"
+
+  --baudRate                 (Default: 57600) Baud rate for the port
+
+  --connectionType           (Default: TCP) Network connection type: TCP or UDP
+
+  --bindIP                   (Default: 0.0.0.0) The address that identifies the
+                             network adapter on which to attempt the connection
+                             on
+
+  --bindPort                 (Default: 0) The port on which to attempt the 
+                             connection on
+
+  --localIP                  The address that identifies the network adapter to
+                             listen on i.e. "0.0.0.0"
+
+  --localPort                (Default: 20000) The port to listen on
+
+  --remoteIP                 The address of remote host as a INET address i.e. 
+                             "127.0.0.1" or name "sandc.com"
+
+  --remotePort               (Default: 20000) The port of remote host is 
+                             listening on
+
+  --localDNP                 (Default: 2) DNP3 address of the local device
+
+  --remoteDNP                (Default: 65532) DNP3 address of the remote device
+
+  --numRetry                 (Default: 0) The number of retry attempts the link
+                             will attempt after the initial try
+
+  --timeoutMs                (Default: 2000) The link response timeout in 
+                             milliseconds for confirmed requests
+
+  --keepAliveMs              (Default: 60000) The TCP keep-alive timeout 
+                             interval
+
+  --responseTimeoutMs        (Default: 5000) The application layer response 
+                             timeout
+
+  --numAppRetry              (Default: 0) The number of retry attempts the 
+                             master will attempt after the initial try
+
+  --disableUnsolOnStartup    (Default: False) If specified, the master will 
+                             disable unsolicited responses on startup for all 3
+                             classes
+
+  --enableUnsolOnStartup     (Default: False) If specified, the master will 
+                             enable unsolicited responses on startup for all 3 
+                             classes
+
+  --timeSync                 (Default: False) If specified, the master will do 
+                             time syncs when it sees the time IIN bit from the 
+                             outstation
+
+  --enableUnsolOnRestart     (Default: False) If specified, the master will 
+                             enable unsolicited responses for all 3 classes 
+                             when it sees the restart IIN bit from the 
+                             outstation
+
+  --xspt                     Path to xspt file to parse setpoints
+
+  --verbose                  (Default: False) If specified, the master will 
+                             activate the highest logging level (too chatty)
+
+  --help                     Display this help screen.
+
